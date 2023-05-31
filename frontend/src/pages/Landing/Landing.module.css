@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 249, 249);
+    padding: 50px;
+    border-radius: 25px;
+}
+
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.introContainer h2 {
+    margin-bottom: 20px;
+}
+
+
+
+/* MUI BUTTONS */
+.buttonsLanding {
+    width: 250px;
+    color: azure;
+    margin: 10px 0;
+}
+
+.buttonPrimary {
+    background-color: rgb(166, 166, 247);
+}
+
+.buttonSecondary {
+    background-color: rgb(227, 227, 241);
+}
+
+.buttonFacebook {
+    background-color: rgb(80, 80, 203);
+}
+
+.buttonLogin {
+    background-color: rgb(151, 167, 127);
+}
+
+.buttonSignup {
+    background-color: rgb(11, 11, 29);
+}
